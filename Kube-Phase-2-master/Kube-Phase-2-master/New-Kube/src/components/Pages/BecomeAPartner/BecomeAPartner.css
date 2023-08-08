@@ -1,0 +1,101 @@
+.bap{
+    width: 90%;
+    margin-left: 5%;
+    max-width: 1440px;
+}
+.bap > h1{
+    color:  #26235C;
+    font-weight: 700;
+    margin-top: 4%;
+    font-size: 3.3vmax;
+}
+
+.bapForm{
+    background-color: rgba(236, 32, 36, 0.37);
+    border-radius: 45px;
+    flex: 1;
+}
+
+.bLabel{
+    color: #25255C;
+    font-weight: 600;
+    font-size: 2.2vmax;
+    margin-left: 3%;
+}
+.bInput{
+    /* border-color: black; */
+    height: 4vmax;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 3%;
+    border-radius: 15px;
+}
+
+.bapBtn{
+    background-color: #26235C;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    width: 25%;
+    height: 4vmax;
+    font-weight: 600;
+    font-size: 2.0vmax;
+    margin-left: 35%;
+}
+
+.bapDownloadAppImg{
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .bapDownloadSec{
+        display: none;
+    }
+
+    .bap > h1{
+        color:  #26235C;
+        font-weight: 700;
+        margin-top: 4%;
+        font-size: 3vmax;
+    }
+
+    .bap{
+        width: 94%;
+        margin-left: 3%;
+        max-width: 1333px;
+        padding: 0;
+    }
+
+    .bapSec{
+        margin: 0;
+    }
+
+    .bapForm{
+        background-color: rgba(236, 32, 36, 0.37);
+        border-radius: 25px;
+        flex: 1;
+        margin-top: 2%!important;
+    }
+
+    .bInput{
+        height: 4vmax;
+        background-color: #ffffff;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        margin-left: 3%;
+        border-radius: 10px;
+    }
+    
+    .bapBtn{
+        background-color: #26235C;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        width: 25%;
+        height: 4vmax;
+        font-weight: 600;
+        font-size: 2.0vmax;
+        margin-left: 35%;
+    }
+}

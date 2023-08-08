@@ -1,0 +1,252 @@
+.loginSection{
+    padding-top: 40px;
+    
+   
+}
+.title_header{
+    font-size: 2.5vmax;
+    font-weight: 700;
+    color: #26235C;
+}
+.ab_left_image{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    user-select: none;
+}
+.ab_left_image img{
+    width: 100px;
+    border-radius: 15px;
+}
+.ab_right_image{
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    z-index: 0;
+    user-select: none;
+}
+.ab_right_image img{
+    width: 100px;
+}
+.headerSearchbar.cus_login_search {
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+    background: transparent;
+    border-radius: 20px;
+    width: 70%;
+    margin: 0  auto;
+    display: block;
+}
+.headerSearchbar.cus_login_search .headerSearch{
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 15px;
+    background: transparent;
+    
+}
+.headerSearchbar.cus_login_search .headerSearch::placeholder{
+    color: #26235C;
+    font-weight: 900;
+}
+.loginSection .container{
+    max-width: 850px;
+}
+.loginNextbutton .localityLogoButton{
+    background: rgba(236, 32, 36, 0.65);
+    color: white;
+    font-weight: 900;
+    width: auto;
+    padding: 5px 30px;
+    font-size: 20px;
+}
+.registerSection p{
+    font-size: 30px;
+    color: #26235C;
+    margin-bottom: 0px;
+}
+.registerNow{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #26235C;
+    margin-top: 0px !important;
+    display: inline-block;
+}
+.otp_orange_line{
+    background: rgba(236, 32, 36, 0.69);
+    padding: 15px 0px;
+}
+.otp_light_grey_line{
+    background: rgba(38, 35, 92, 0.15);
+    padding: 15px 0px;
+}
+.bottomimage{
+    width: 60%;
+}
+.ab_close_button{
+    position: absolute;
+    right: 120px;
+    top: 40px;
+    cursor: pointer;   
+}
+.otpLabel{
+    color: #26235C;
+    font-size: 20px;
+    margin: 0;
+}
+.otpContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.otpContainer .headerSearchbar.cus_login_search{ 
+    margin-right:3%;
+    height: 70px;
+    width: 60px;
+    margin-left: 0px;
+   
+}
+.otpContainer .headerSearchbar.cus_login_search .headerSearch{
+    text-align: center;
+    height: 80px;
+    width: 70px;
+    padding-left: 0px;
+} 
+
+.otpContainer .headerSearchbar.cus_login_search:nth-last-child(1){
+    margin-right: 0px;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .loginSection{
+        padding-top: 45px;
+        
+       
+    }
+    .title_header{
+        font-size: 3vmax;
+        font-weight: 700;
+        color: #26235C;
+    }
+    .ab_left_image{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 0;
+        user-select: none;
+    }
+    .ab_left_image img{
+        width: 10vmax;
+        border-radius: 15px;
+    }
+    .ab_right_image{
+        position: absolute;
+        right: 0px;
+        top: 30px;
+        z-index: 0;
+        user-select: none;
+    }
+    .ab_right_image img{
+        width: 4vmax;
+    }
+    .headerSearchbar.cus_login_search {
+        box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+        background: transparent;
+        border-radius: 5px;
+        width: 70%;
+        margin: 0  auto;
+        display: block;
+    }
+    .headerSearchbar.cus_login_search .headerSearch{
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 15px;
+        background: transparent;
+        
+    }
+    .headerSearchbar.cus_login_search .headerSearch::placeholder{
+        color: #26235C;
+        font-weight: 900;
+    }
+    .loginSection .container{
+        max-width: 850px;
+    }
+    .loginNextbutton .localityLogoButton{
+        background: rgba(236, 32, 36, 0.65);
+        color: white;
+        font-weight: 700;
+        width: auto;
+        padding: 3px 25px;
+        font-size: 1.9vmax;
+        border-radius: 5px;
+    }
+    .registerSection p{
+        font-size: 30px;
+        color: #26235C;
+        margin-bottom: 0px;
+    }
+    .registerNow{
+        font-size: 2.2vmax;
+        text-decoration: none;
+        font-weight: 700;
+        color: #26235C;
+        margin-top: 0px !important;
+        display: inline-block;
+    }
+    .otp_orange_line{
+        background: rgba(236, 32, 36, 0.69);
+        padding: 15px 0px;
+    }
+    .otp_light_grey_line{
+        background: rgba(38, 35, 92, 0.15);
+        padding: 15px 0px;
+    }
+    .bottomimage{
+        width: 100%;
+    }
+    .ab_close_button{
+        position: absolute;
+        right: 120px;
+        top: 40px;
+        cursor: pointer;   
+    }
+    .otpLabel{
+        color: #26235C;
+        font-size: 1.5vmax;
+        margin: 0;
+    }
+    .otpContainer{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .otpContainer .headerSearchbar.cus_login_search{ 
+        margin-right:3%;
+        height: 5vmax;
+        width: 12%;
+        margin-left: 0px;
+       
+    }
+    .otpContainer .headerSearchbar.cus_login_search .headerSearch{
+    
+        text-align: center;
+        height: 5vmax;
+        width: 100%;
+        padding-left: 0px;
+    } 
+    
+    .otpContainer .headerSearchbar.cus_login_search:nth-last-child(1){
+        margin-right: 0px;
+    }
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+

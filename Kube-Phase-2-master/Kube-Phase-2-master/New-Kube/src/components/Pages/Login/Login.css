@@ -1,0 +1,225 @@
+.login_loginSection{
+    
+    
+    
+    padding-top: 40px;
+    /* padding-bottom: 50px; */
+}
+.login_title_header{
+    font-size: 2.5vmax;
+    font-weight: 700;
+    color: #26235C;
+}
+.login_ab_left_image{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    user-select: none;
+}
+.login_ab_left_image img{
+    width: 8vmax;
+    border-radius: 15px;
+}
+.login_ab_right_image{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    z-index: 0;
+    user-select: none;
+}
+.login_ab_right_image img{
+    width: 7.2vmax;
+}
+.login_headerSearchbar.cus_login_search {
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+    background: transparent;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0  auto;
+    display: block;
+}
+.login_headerSearchbar.cus_login_search .headerSearch{
+    width: 100%;
+    height: 3vmax;
+    margin-left: 0px;
+    padding-left: 15px;
+    background: transparent;
+    border: none;
+}
+.login_headerSearchbar.cus_login_search .headerSearch::placeholder{
+    color: #26235C;
+    font-weight: 900;
+}
+.loginSection .container{
+    max-width: 850px;
+    /* background-color: white; */
+}
+.login_loginNextbutton .localityLogoButton{
+    background: rgba(236, 32, 36, 0.65);
+    color: white;
+    font-weight: 700;
+    width: auto;
+    padding: 3px 30px;
+    font-size: 20px;
+}
+.login_registerSection p{
+    font-size: 25px;
+    color: #26235C;
+    margin-bottom: 0px;
+}
+.login_registerNow{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #26235C;
+    display: inline-block;
+    cursor: pointer;
+}
+.login_orange_line{
+    background: rgba(236, 32, 36, 0.69);
+    padding: 15px 0px;
+}
+.login_light_grey_line{
+    background: rgba(38, 35, 92, 0.15);
+    padding: 15px 0px;
+}
+.login_bottomimage{
+    width: 60%;
+}
+.ab_close_button{
+    position: absolute;
+    right: 120px;
+    top: 40px;
+    cursor: pointer;
+    
+}
+.new_modal .modal-content{
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+.new_modal .modal-lg{
+    max-width: 100% !important;
+    
+    width: 70% !important;
+    margin: 0 auto !important;
+    
+}
+.new_modal .modal-body{
+padding: 0px;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .login_loginSection{
+        padding-top: 50px;
+        /* padding-bottom: 50px; */
+    }
+    .login_title_header{
+        font-size: 2.5vmax;
+        font-weight: 700;
+        color: #26235C;
+    }
+    .login_ab_left_image{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 0;
+        user-select: none;
+    }
+    .login_ab_left_image img{
+        width: 10vmax;
+        border-radius: 15px;
+    }
+    .login_ab_right_image{
+        position: absolute;
+        right: 0px;
+        top: 40px;
+        z-index: 0;
+        user-select: none;
+    }
+    .login_ab_right_image img{
+        width: 4vmax;
+    }
+    .login_headerSearchbar.cus_login_search {
+        box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+        background: transparent;
+        border-radius: 10px;
+        width: 80%;
+        margin: 0  auto;
+        display: block;
+    }
+    .login_headerSearchbar.cus_login_search .headerSearch{
+        width: 100%;
+        height: 4vmax;
+        margin-left: 0px;
+        padding-left: 15px;
+        background: transparent;
+        border: none;
+    }
+    .login_headerSearchbar.cus_login_search .headerSearch::placeholder{
+        color: #26235C;
+        font-weight: 900;
+    }
+    .loginSection .container{
+        max-width: 850px;
+        /* background-color: white; */
+    }
+    .login_loginNextbutton .localityLogoButton{
+        background: rgba(236, 32, 36, 0.65);
+        color: white;
+        font-weight: 700;
+        width: auto;
+        padding: 3px 20px;
+        font-size: 1.9vmax;
+        border-radius: 5px;
+    }
+    .login_registerSection p{
+        font-size: 2.2vmax;
+        color: #26235C;
+        margin-bottom: 0px;
+    }
+    .login_registerNow{
+        font-size: 2vmax;
+        text-decoration: none;
+        font-weight: 900;
+        color: #26235C;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .login_orange_line{
+        background: rgba(236, 32, 36, 0.69);
+        padding: 15px 0px;
+    }
+    .login_light_grey_line{
+        background: rgba(38, 35, 92, 0.15);
+        padding: 15px 0px;
+    }
+    .login_bottomimage{
+        width: 100%;
+    }
+    .ab_close_button{
+        position: absolute;
+        right: 120px;
+        top: 40px;
+        cursor: pointer;
+        
+    }
+    .new_modal .modal-content{
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 15%;
+        
+    }
+    .new_modal .modal-lg{
+        max-width: 100% !important;
+        
+        width: 70% !important;
+        margin: 0 auto !important;
+        
+    }
+    .new_modal .modal-body{
+    padding: 0px;
+    }
+}

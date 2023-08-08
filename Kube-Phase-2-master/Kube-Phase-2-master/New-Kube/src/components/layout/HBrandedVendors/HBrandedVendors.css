@@ -1,0 +1,73 @@
+.hBrandedVendorsSec{
+    padding-bottom: 3.75%;
+    border-bottom: 3px solid rgba(37, 37, 92, 0.15);
+}
+.hBrandedVendorsHeading{
+    color: #25255c;
+    font-size: 2.8vmax;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 5.5%;
+    margin-bottom: 3.5%;
+}
+
+.hBrandedVendorsImgSec{
+    
+}
+
+    .hBrandedVendorsImg{
+       width: 84%;
+       height: 13.9vmax;
+       box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+       border-radius: 15px;
+    }
+
+
+.hBrandedVendorsCardSec .slick-slider {
+    margin-left: 5.5% !important;
+}
+
+.NRhBestOffer{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .hBrandedVendorsSec{
+        padding-bottom: 3.75%;
+        border-bottom: 3px solid rgba(37, 37, 92, 0.15);
+    }
+    .hBrandedVendorsHeading{
+        color: #25255c;
+        font-size: 2.5vmax;
+        font-weight: 700;
+        margin: 0;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-bottom: 3.5%;
+    }
+    
+    .hBrandedVendorsCardSec{
+        margin-left: 3%;
+    }
+
+    .hBrandedVendorsImgSec{
+        
+    }
+    
+        .hBrandedVendorsImg{
+           width: 90%;
+           height: 11.55vmax;
+           box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+           border-radius: 5px;
+        }
+    
+    
+    .hBrandedVendorsCardSec .slick-slider {
+        margin-left: 0 !important;
+    }
+    
+    .NRhBestOffer{
+        display: none;
+    }
+}

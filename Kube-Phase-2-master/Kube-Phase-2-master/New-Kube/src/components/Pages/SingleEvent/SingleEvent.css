@@ -1,0 +1,148 @@
+html{
+    font-size: 100%;
+}
+
+.singleEventsCard{
+    width : 85vw;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 2rem;
+    vertical-align: top;
+    background: rgba(223, 223, 231, 0.3);
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+    .singleEventCardImg{
+        width : 100vw;
+        height : 45vh;
+        box-shadow: 0.5rem .5rem .5rem rgba(0, 0, 0, 0.25);
+    }
+
+    .singleEventName{
+        width: 72vw;
+        color: #25255C;
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin: 1rem 0 0 1.2rem;
+        padding-bottom: 0.5rem;
+        border-bottom: #25255C solid 0.15rem;
+    }
+
+    .singleEventRow2{
+        width: 72vw;
+        margin-top: 1rem;
+        padding-bottom: 0.5rem;
+        margin: 1rem 0 0 1.2rem;
+        border-bottom: #25255C solid 0.15rem;
+    }
+
+        .singleEventGenre{
+            color: #25255C;
+            font-size: 2.5rem;
+            font-weight: 600;
+            padding-right: 2rem;
+            border-right: #25255C solid 0.15rem;
+        }
+
+        .singleEventPromo{
+            color: #25255C;
+            font-size: 2.5rem;
+            font-weight: 600;
+            padding-right: 2rem;
+            padding-left: 2rem;
+            border-right: #25255C solid 0.15rem;
+        }
+
+        .singleEventAge{
+            color: #25255C;
+            font-size: 2.5rem;
+            font-weight: 600;
+            padding-left: 2rem;
+        }
+
+    .singleEventRow3{
+        display: inline-block;
+        width: 72vw;
+        margin-top: 1rem;
+        padding-bottom: 0.5rem;
+        margin: 1rem 0 0 1.2rem;
+    }
+
+        .singleEventDate{
+            color: #25255C;
+            font-size: 2.5rem;
+            font-weight: 600;
+            padding-right: 1.8rem;
+            border-right: #25255C solid 0.15rem;
+        }
+
+        .singleEventVenue{
+            color: #25255C;
+            font-size: 2.5rem;
+            font-weight: 600;
+            padding-right: 1.8rem;
+            padding-left: 1.8rem;
+            border-right: #25255C solid 0.15rem;
+        }
+
+        .singleEventPrice{
+            color: #EC2024;
+            font-size: 2.5rem;
+            font-weight: 600;
+            padding-left: 2rem;
+        }
+
+        .singleEventBookSec{
+            display: inline-block;
+            position : relative;
+            left: 3vh;
+            bottom: 9vh;
+            width: 10vw;
+        }
+
+        .singleEventBook{
+            
+            width: 10vw;
+            height: 8vh;
+            font-size: 2.8rem;
+            font-weight: 700 ;
+            color: #ffffff;
+            background: #EC2024;
+            box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.25);
+            border-radius: 0.5rem;
+            border: none;
+        }
+
+.singleEventsOrganizerCard{
+    width: 21vw;
+    margin-left: 12rem;
+    margin-top: 4.3rem;
+    background: rgba(223, 223, 231, 0.3);
+    border-radius: 0.5rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.5);
+}
+
+    .singleEventsOrganizerHeading{
+        color: #25255C;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-left: 1.9rem;
+    }
+
+    .singleEventsOrganizerImg{
+        display: inline-block;
+        width: 9.8rem;
+        height: 9.8rem;
+        margin-left: 1.9rem;
+        margin-bottom: 1rem;
+        border-radius: 5rem;
+    }
+
+    .singleEventsOrganizerName{
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 1.9rem;
+
+    }

@@ -1,0 +1,313 @@
+.OD_image_wrap img {
+    width: 100%;
+    /* height: 320px; */
+    object-fit: fill;
+}
+
+.OD_image_wrap {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    overflow: hidden;
+}
+.container.vendorDetails_section {
+    max-width: 1490px;
+    padding-top: 30px;
+}
+
+.icons-wraps {
+    margin-top: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-wraps img {
+    width: 60px;
+}
+
+.tab-vendor-details {
+    border-top: 2px solid rgba(37, 37, 92, 0.17);
+}
+
+.tab-vendor-details .inner-tab-vendor-details {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-tab-vendor-details .localityLogoButton {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #26235C;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.inner-tab-vendor-details .localityLogoButton.active {
+    background-color: red;
+    color: white;
+}
+
+.tab-vendor-details .container {
+    max-width: 1490px;
+}
+
+.list-tab-wrap .image_wrap {
+    margin-top: 30px;
+}
+
+.list-tab-wrap .image_wrap img {
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.ODofferImg{
+    display: inline-block;
+    width: 37%;
+    height: 15vmax;
+    margin-top: 3%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    /* border-radius: 10px; */
+    vertical-align: top;
+  
+}
+
+.offerDetailsContentSec{
+    display: inline-block;
+    width: 45%;
+    margin-top: 2%;
+    margin-left: 6%;
+    vertical-align: top;
+}
+
+    .offerDetailsContentSec h2{
+        color: #26235C;
+        font-size: 2.2vmax;
+        font-weight: 600;
+        margin-bottom: 2%;
+    }
+
+    .offerDetailsContentSec p{
+        color: #26235C;
+        font-size: 1.6vmax;
+        font-weight: 400;
+        line-height: 2.1vmax;
+        margin-bottom: 4%;
+    }
+
+
+
+    .offerDetailsContentSec span{
+        color: #26235C;
+        font-size: 1.4vmax;
+        font-weight: 400;
+    }
+
+
+.termsConditionSec{
+    width: 85%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+   
+    .termsConditionSec h1{
+        color: #26235C;
+        font-size: 2.3vmax;
+        font-weight: 600;
+    }
+
+    .termsConditionSec p{
+        color: #26235C;
+        font-size: 1.6vmax;
+        font-weight: 350;
+        line-height: 2.2vmax;
+    }
+
+    .offerDetailsValidityDownload{
+        /* display: flex; */
+        justify-content: space-between;
+        margin-left:3.5rem;
+        margin-top: -2rem;
+    }
+
+    
+
+    .offerDetailsDownloadBtnSec{
+        
+        width: fit-content;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        background: #DFDFE7;
+        justify-content: center;
+        border-radius: 0.4rem;
+        box-shadow: 2px 2px 2px rgba(23, 18, 18, 0.581);
+        
+    }
+    
+    .offerDetailsDownloadBtnSec .offerDownloadBtn{
+        width: 100%;
+        color: #ffffff;
+        background: #26235C;
+        padding: 0.4rem 0.4rem;
+        border-radius: 0.4rem;
+        font-weight: 450;
+        font-size: 1rem;
+        border: none;
+        box-shadow: 2px 2px 2px rgba(23, 18, 18, 0.581);
+    }
+    
+    .offerDetailsDownloadBtnSec p {
+        font-weight: 600;
+        font-size: 0.8rem;
+        margin: auto 0.5rem auto 0.5rem;
+        text-align: center;
+    }
+
+    .offerDetailsDownloadBtnSec span {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin: auto 0.5rem auto 0.5rem;
+    }
+
+.inner_details_overview_wrap > a {
+    text-decoration: none;
+}
+
+    .offerDetailsSec .h2 {
+            color: #26235C;
+            font-size: 3.2vmax;
+            font-weight: 700;
+            margin-left: 5%;
+    }
+
+    .offerDetailsSec hr{
+        height: 2px;
+    }
+
+
+ @media only screen and (max-width: 600px) and (min-width: 280px){
+    .ODofferImg{
+        display: inline-block;
+        width: 90%;
+        height: 100%;
+        margin-top: 5%;
+        /* margin-left: 5%; */
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 6px;
+        vertical-align: top;
+    }
+    
+    .offerDetailsContentSec{
+        /* display: ; */
+        width: 90%;
+        margin-top: 5%;
+        margin-left: 5%;
+        vertical-align: top;
+    }
+    
+        .offerDetailsContentSec h2{
+            color: #26235C;
+            font-size: 4vw;
+            font-weight: 600;
+            margin-bottom: 2%;
+        }
+    
+        .offerDetailsContentSec p{
+            color: #26235C;
+            font-size: 3.5vw;
+            font-weight: 600;
+            line-height: 2.1vmax;
+            margin-bottom: 4%;
+        }
+    
+    
+    
+        .offerDetailsContentSec span{
+            color: #26235C;
+            font-size: 2.1vmax;
+            font-weight: 700;
+        }
+
+        .offerDetailsDownloadBtnSec .offerDownloadBtn{
+        width: 100%;
+            color: #ffffff;
+            background: #26235C;
+            padding: 0.4rem 0.5rem;
+            border-radius: 0.4rem;
+            font-weight: 500;
+            font-size: 1rem;
+            border: none;
+            box-shadow: 2px 2px 2px rgba(23, 18, 18, 0.581);
+        }
+
+        .offerDetailsDownloadBtnSec{
+        
+            width: fit-content;
+            /* flex-wrap: wrap; */
+            margin-top: -0.2rem;
+            margin-left: 50%;
+            margin-bottom: 0.5rem;
+            background: #DFDFE7;
+            height: 2.4rem;
+            /* justify-content: center; */
+            border-radius: 0.4rem;
+            box-shadow: 2px 2px 2px rgba(23, 18, 18, 0.581);
+        }
+
+        .offerDetailsDownloadBtnSec p {
+            position: relative;
+            bottom: 27px;
+            margin-left: 11px ;
+            font-weight: 600;
+            font-size: 1rem;
+            }
+
+        .offerDetailsDownloadBtnSec span {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-top: -12rem;
+        }
+        
+        /* .offerDetailsValidityDownload {
+
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            margin-left: 3.5rem;
+            margin-bottom: 0.5rem;
+        } */
+
+        .offerDetailsContentSec h2 {
+            color: #26235C;
+            font-size: 6vw;
+            font-weight: 600;
+            margin-top: 5%;
+            margin-bottom: 2%;
+          
+        }
+
+        /* .offerDetailsContentSec p{
+            
+        } */
+
+        /* .offerDetailsContentSec .me-3 {
+            color: #26235C;
+            font-size: 1.4vmax;
+            font-weight: 400;
+            margin-left: -3.5rem;
+        } */
+        
+        .offerDetailsContentSec{
+            display:flex;
+            flex-direction: column-reverse;
+        }
+}

@@ -1,0 +1,749 @@
+.mainheader {
+    width: 100%;
+    /* height: 26.5vmax; */
+    
+    background: #26235B;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 0px 0px;
+}
+
+.headerMenu {
+    order: 5;
+    width: 6%
+}
+
+.headerMenubtn {
+    background: rgba(37, 37, 92, 0.15);
+    border: none;
+}
+
+.headerLogo {
+    width: 20%;
+    order: 1;
+}
+
+.headerlogoicon {
+    display: inline-block;
+    width: 45%;
+    margin-left: 34%;
+    margin-top: 13%;
+    margin-bottom: 15%;
+}
+
+.headerloginsection {
+    /* float: right; */
+    order: 4;
+    text-align: center;
+    width: 9.2%;
+    margin-top: 0%;
+    margin-right: 0%;
+}
+
+.headerLoginContentSec{
+    width: auto;
+    margin-top: 14%;
+    margin-right: 1.5%;
+}
+
+.headerloginimgsection {
+    display: inline-block;
+    width: 3.8vmax;
+    height: 3.8vmax;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.headerloginicon {
+    width: 38.5%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1vmax;
+}
+
+.headerlogintext {
+    font-size: 1.15vmax;
+    margin: 0;
+    color:  #ffffff;
+    cursor: pointer;
+}
+
+.headerMenuicon {
+    /* float: right; */
+    width: 40%;
+    margin-top: 40%;
+    margin-left: 8%;
+}
+
+.headerCityLocality{
+    width: 23.9%;
+    order: 2;
+}
+
+.headerLocationSec{
+    margin-top: 13.5%;
+}
+
+.headerlocationicon {
+    width: 6.5%;
+    margin-top: 1.5%;
+    margin-left: 0%;
+    vertical-align: top;
+}
+
+.headercityselector {
+    width: 10.85%;
+    height: 1.8vmax;
+    appearance: none;
+    background-color: transparent;
+    background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+    background-repeat: no-repeat;
+    background-size: 1.5vmax 1.5vmax;
+    background-position-x: 100%;
+    border: none;
+    margin-top: 5%;
+    margin-left: 2.25%;
+    font-size: 1.25vmax;
+    font-weight: 600;
+    color: #26235c;
+}
+
+.headerlocalityselector {
+    width: 9%;
+    height: 1.8vmax;
+    appearance: none;
+    background-color: transparent;
+    background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-size: 1.5vmax 1.5vmax;
+    border: none;
+    margin-top: 5%;
+    margin-left: 2.3%;
+    font-size: 1.25vmax;
+    font-weight: 600;
+    color: #26235c;
+}
+
+.headerSearchbarSec{
+    position: relative;
+    order: 3;
+    width: 40%;
+}
+
+.headerSearchbar {
+    display: flex;
+    width: 78%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 6.8%;
+    margin-left: 0%;
+    border-radius: 2px;
+    vertical-align: top;
+    position: relative;
+}
+
+
+
+.headerSearchiconsec{
+    width: 17%
+}
+
+.headersearchicon {
+    width: 35%;
+    margin-left: 28%;
+    margin-top: 11%;
+    margin-bottom: 5%;
+    vertical-align: top;
+}
+
+.headerSearch {
+    width: 80%;
+    /* height: 100%; */
+    border: none;
+    margin-left: 0%;
+    vertical-align: top;
+    outline: none;
+}
+
+    .headerSearch::placeholder{
+        font-style: italic;
+    }
+
+.headerCityLocalitySec{
+    display: inline-flex;
+    width: 90%;
+    justify-content: space-evenly;
+    vertical-align: top;
+}
+
+.cityLabel {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.4vmax;
+    display: flex;
+    width: 40.5%;
+    /* height: 3.7vmax; */
+    margin-left: 2.9%;
+    margin-top: 0%;
+    cursor: pointer;
+    vertical-align: top;
+    justify-content: space-evenly;
+}
+
+.localityLabel {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.4vmax;
+    display: flex;
+    width: 40.5%;
+    cursor: pointer;
+    /* height: 3.7vmax; */
+    margin-left: 2%;
+    margin-top: 0%;
+    vertical-align: top;
+    justify-content: space-evenly;
+}
+
+.headerSearch::placeholder {
+    font-size: 1.25vmax;
+    padding-bottom: 2px;
+}
+
+.headermicbtn {
+    width: 2vmax;
+    height: 2vmax;
+    margin-top: 1.5%;
+    padding: 0;
+    background-color: #ffffff;
+    border: none;
+    vertical-align: top;
+}
+
+.headermicicon {
+    width: 100%;
+    
+    background-color: #ffffff;
+    vertical-align: top;
+}
+
+.headerCat {
+    display: inline-block;
+    width: 15%;
+    height: 7.45vmax;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.headercaticon {
+    width: 25%;
+    cursor: pointer;
+}
+
+.headercattext {
+    font-size: 1.4vmax;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10%;
+    text-decoration: underline;
+    color: #26235c;
+    cursor: pointer;
+}
+
+.headercatsection {
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1% ;
+    margin-bottom: 3%;
+}
+
+.hits-list{
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 9999;
+    width: 78%;
+    margin-top: 1%;
+    animation: rotateMenu 500ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes rotateMenu {
+    0% {
+        transform: rotateX(-90deg);
+    }
+    70% {
+        transform: rotateX(20deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+  .hits-list > ul {
+    list-style-type: none;
+    padding: 5%;
+    margin-bottom: 0;
+  }
+
+  .hit > h3 {
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 2%;
+  }
+
+  .hit {
+    margin: 0;
+    padding: 0;
+    border-bottom: #000000 1px solid;
+    cursor: pointer;
+  }
+  
+  .store-name {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+@media only screen and (max-width: 1024px) and (min-width: 860px) {
+    .cityLabel svg {
+        width: 20px;
+        height: 20px;
+    }
+    .localityLabel svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width: 860px) and (min-width: 750px) {
+    .cityLabel {
+        width: 45%;
+    }
+    .cityLabel svg {
+        width: 15px;
+        height: 15px;
+    }
+    .localityLabel svg {
+        width: 15px;
+        height: 15px;
+    }
+    .headerlocationicon {
+        margin-top: 1%;
+    }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 600px) {
+    .cityLabel {
+        width: 45%;
+    }
+    .cityLabel svg {
+        width: 13px;
+        height: 13px;
+    }
+    .localityLabel svg {
+        width: 13px;
+        height: 13px;
+    }
+}
+
+@media only screen and (max-height: 1400px) and (min-height: 950px) {
+    .cityLabel{
+        font-size: 1vh;
+    }
+    .localityLabel{
+        font-size: 1vh;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+    .FlexBox{
+        display : flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .headerMenu {
+        order: 1;
+        width: 26%
+    }
+
+    .headerLogo {
+        width: 49%;
+        order: 2;
+    }
+
+    .headerSearchbarSec{
+    
+        order: 5;
+        width: 70%;
+    }
+
+    .headerCityLocality{
+        width: 30%;
+        order: 4;
+    }
+
+    .mainheader {
+        width: 100%;
+        /* height: 22vmax; */
+        /* height: auto; */
+        background: #26235B;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 0px 0px 0px;
+        
+    }
+    .headerlogoicon {
+        display: inline-block;
+        width: 46%;
+        /* height: 10%; */
+        margin-left: 25%;
+        margin-top: 9%;
+        margin-bottom: 9%;
+    }
+
+
+    .headerloginsection {
+        /* float: right; */
+        order: 3;
+        text-align: center;
+        width: 25%;
+        margin-top: 0%;
+        margin-right: 0%;
+    }
+    .headerloginimgsection {
+        display: inline-block;
+        width: 4.4vmax;
+        height: 4.4vmax;
+        border-radius: 50px;
+        background-color: #ffffff;
+    }
+    .headerloginicon {
+        width: 30%;
+        height: 30%;
+        cursor: pointer;
+    }
+    .headerlogintext {
+        font-size: 1.25vmax;
+        margin: 0;
+        margin-top: 2%;
+        cursor: pointer;
+    }
+    .headerMenuicon {
+        float: left;
+        width: 20%;
+        margin-top: 25%;
+        margin-left: 21%;
+        margin-right: 0;
+    }
+    .headerlocationicon {
+        width: 9%;
+        margin-top: 8%;
+        margin-left: 16%;
+        vertical-align: top;
+    }
+    .headercityselector {
+        width: 22%;
+        height: 1.85vmax;
+        appearance: none;
+        background-color: transparent;
+        background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+        background-repeat: no-repeat;
+        background-size: 1.5vmax 1.5vmax;
+        background-position-x: 100%;
+        border: none;
+        margin-top: 6.15%;
+        margin-left: 2.25%;
+        font-size: 1.25vmax;
+        font-weight: 600;
+        color: #26235c;
+    }
+    .headerlocalityselector {
+        width: 20%;
+        height: 1.8vmax;
+        appearance: none;
+        background-color: transparent;
+        background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-size: 1.5vmax 1.5vmax;
+        border: none;
+        margin-top: 5%;
+        margin-left: 2.3%;
+        font-size: 1.25vmax;
+        font-weight: 600;
+        color: #26235c;
+    }
+
+    .headerLocationSec{
+        margin-top: 0;
+    }
+
+    .headerCityLocalitySec{
+        display: inline-flex;
+        width: 70%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        vertical-align: top;
+    }
+
+    .cityLabel {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 1.2vh;
+        display: flex;
+        width: 100%;
+        
+        margin-left: 0%;
+        margin-top: 0%;
+        /* cursor: pointer; */
+        vertical-align: top;
+        justify-content: center;
+    }
+
+    .localityLabel {
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 1.2vh;
+        display: flex;
+        width: 100%;
+        cursor: pointer;
+        /* height: 3.7vmax; */
+        margin-left: 0%;
+        margin-top: 0%;
+        vertical-align: top;
+        justify-content: center;
+    }
+
+    .cityLabel svg {
+        width: 12%;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .localityLabel svg {
+        width: 12%;
+        height: 15px;
+        margin-left: 10px;
+    }
+
+    .headerSearchbar {
+        display: flex;
+        width: 78%;
+        height: auto;
+        background: #FFFFFF;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 5%;
+        border-radius: 2px;
+        vertical-align: top;
+        position: relative;
+    }
+
+    .headerSearchiconsec{
+        width: 16.5%;
+        
+    }
+    .headersearchicon {
+        width: 45%;
+        margin-left: 35%;
+        margin-top: 17%;
+        margin-bottom: 15%;
+        vertical-align: top;
+    }
+    .headerSearch {
+        width: 80%;
+    /* height: 100%; */
+        border: none;
+        margin-left: 0%;
+        vertical-align: top;
+        outline: none;
+    }
+    .headerSearch::placeholder {
+        font-size: 12px;
+        line-height: 12px;
+        vertical-align: -webkit-baseline-middle
+    }
+    .headermicbtn {
+        width: 5%;
+        height: 5%;
+        margin-top: 1.5%;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        vertical-align: top;
+    }
+    .headermicicon {
+        width: 100%;
+        /* height : 25%; */
+        background-color: transparent;
+        vertical-align: top;
+    }
+    .headerCat {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        margin-top: 1.92%;
+        margin-right: 2%;
+        text-align: center;
+    }
+    .headercaticon {
+        display: none;
+        width: 26.5%;
+        cursor: pointer;
+    }
+    .headercattext {
+        font-size: 1.4vmax;
+        font-weight: 1;
+        margin: 0;
+        margin-top: 10%;
+        text-decoration: underline;
+        color: #26235c;
+        cursor: pointer;
+    }
+    .headercatsection {
+        text-align: center;
+        padding-bottom: 3%;
+        margin-bottom: 3%;
+    }
+}
+
+.headerSearchbar.cusHeaderSearchbar {
+    height: 3vmax;
+}
+
+.cusHeaderSearchbar .headerSearch {
+    width: 92%;
+}
+
+.cusHeaderSearchbar .headersearchicon {
+    margin-top: 1%;
+    margin-left: 0px;
+}
+
+.modal-content.cus-modal-content {
+    background-color: #DEDEE7
+}
+
+.loginContainer {
+    background-color: #ffffff;
+}
+.bottom_logout_wrap{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.box_pop_up{
+
+    padding: 40px 40px;
+
+}
+.input_file_wrap{
+    margin-top: 20px;
+}
+
+.searchList {
+    margin-top: 5px;
+    max-height: 400px;
+    border-radius: 10px;
+    background-color: white;
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 65px;
+    z-index: 1000;
+    padding: 5px 0px;
+    box-shadow: 0px 0px 10px 2px #898989;
+}
+
+.searchItem {
+    list-style-type: none;
+    padding: 5px 10px 5px 20px;
+}
+
+.searchItem:hover {
+    background-color: #dfdfe7;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 590px) {
+    /* .headerlogoicon {
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+    .headerMenuicon {
+        margin-top: 25px;
+    }
+    .headerloginsection {
+        margin-top: 16px;
+    }
+    .cityLabel {
+        font-size: 12px;
+        width: auto;
+        font-weight: 400;
+        font-weight: 400;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+    .localityLabel {
+        margin-top: 12px;
+        font-size: 12px;
+        width: auto;
+        font-weight: 400;
+    }
+    .headerlocationicon {
+        margin-top: 15px;
+    }
+    .cityLabel svg {
+        width: 12px;
+        height: 12px;
+        margin-left: 10px;
+    }
+    .localityLabel svg {
+        width: 10px;
+        height: 12px;
+        margin-left: 10px;
+    }
+    .headerSearchbar {
+       
+    }
+    .header {
+        height: 24vmax;
+    }
+    .headersearchicon {
+        width: 6%;
+        margin-top: 1.2%;
+    } */
+}
+
+.searchList::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+.searchList::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	background: rgb(70, 68, 68);
+	border-radius: 100px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1350px) {
+    .headerSearchbar {
+        width: 43% !important;
+    }
+}
+
+
+
+
+.FlexBox{
+    display : flex;
+    flex-direction: row;
+}
+
+
+
+
+

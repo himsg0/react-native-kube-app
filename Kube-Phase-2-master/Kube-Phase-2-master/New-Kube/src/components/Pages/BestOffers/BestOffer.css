@@ -1,0 +1,166 @@
+.Bofferheading{
+    display: inline-block;
+    width: 50%;
+    color: #26235c;
+    font-weight: 700;
+    font-size: 2.8vmax;
+    margin: 0;
+    margin-top: 4.2%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    vertical-align: top;
+}
+
+.Bsortcategory{
+    display: inline-block;
+    width: 17%;
+    height: 3.3vmax;
+    appearance: none;
+    background-color: transparent;
+    background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+    background-repeat: no-repeat;
+    background-size: 2.5vmax 2.5vmax;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    border: 1px solid #25255C;
+    border-radius: 15px;
+    padding-left: 0.5%;
+    margin-top: 4.2%;
+    margin-left: 1%;
+    padding-right: 3%;
+    font-size: 1.5vmax;
+    font-weight: 400;
+    color: #26235c;
+    vertical-align: top;
+}
+
+.BsortsubCategory{
+    display: inline-block;
+    width: 20.4%;
+    height: 3.3vmax;
+    appearance: none;
+    background-color: transparent;
+    background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+    background-repeat: no-repeat;
+    background-size: 2.5vmax 2.5vmax;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    border: 1px solid #25255C;
+    border-radius: 15px;
+    padding-left: 0.5%;
+    padding-right: 3%;
+    margin-top: 4.2%;
+    margin-left: 2.25%;
+    font-size: 1.5vmax;
+    font-weight: 400;
+    color: #26235c;
+    vertical-align: top;
+}
+
+.BOffersSec{
+    width: 95%;
+    margin-left: 5%;
+}
+
+.Boffersimgsec{
+    display: inline-block;
+    width: 29.3%;
+    margin-right: 3.5%;
+    margin-bottom: 3.8%;
+    
+}
+
+    .Boffersimg{
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        height: 10.45vmax;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+
+  
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .Bofferheading{
+        display: inline-block;
+        width: 39%;
+        color: #26235c;
+        font-weight: 700;
+        font-size: 3vmax;
+        margin: 0;
+        margin-top: 4.2%;
+        margin-bottom: 5%;
+        margin-left: 3%;
+        vertical-align: top;
+    }
+    
+    .Bsortcategory{
+        display: inline-block;
+        width: 25%;
+        height: 3.5vmax;
+        appearance: none;
+        background-color: transparent;
+        background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+        background-repeat: no-repeat;
+        background-size: 2.5vmax 2.5vmax;
+        background-position-x: 100%;
+        background-position-y: 50%;
+        border: 1px solid #25255C;
+        border-radius: 10px;
+        padding-left: 0.5%;
+        margin-top: 4.2%;
+        margin-left: 1%;
+        font-size: 1.4vmax;
+        font-weight: 400;
+        color: #26235c;
+        vertical-align: top;
+    }
+    
+    .BsortsubCategory{
+        display: inline-block;
+        width: 28%;
+        height: 3.5vmax;
+        appearance: none;
+        background-color: transparent;
+        background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+        background-repeat: no-repeat;
+        background-size: 2.5vmax 2.5vmax;
+        background-position-x: 100%;
+        background-position-y: 50%;
+        border: 1px solid #25255C;
+        border-radius: 10px;
+        padding-left: 0.5%;
+        margin-top: 4.2%;
+        margin-left: 1%;
+        font-size: 1.4vmax;
+        font-weight: 400;
+        color: #26235c;
+        vertical-align: top;
+    }
+    
+    .BOffersSec{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .Boffersimgsec{
+        display: inline-block;
+        width: 100%;
+        margin-right: 0;
+        padding-bottom: 2.5%;
+        margin-bottom: 2.5%;
+        border-bottom: 1px solid rgba(37, 37, 92, 0.37);;
+    }
+
+        .Boffersimg{
+            position: relative;
+            cursor: pointer;
+            
+            width: 94%;
+            height: 19vmax;
+            margin-left: 3%;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        }   
+}
+

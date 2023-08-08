@@ -1,0 +1,139 @@
+.hCategorySec{
+    padding-bottom: 2%;
+    border-bottom: 3px solid rgba(37, 37, 92, 0.15);
+}
+
+.hCategoryHeading{
+    color: #25255c;
+    font-size: 2.8vmax;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 5.5%;
+    margin-bottom: 2%;
+}
+
+.Hcategory-content{
+    height: 100%;
+    width: 88%;
+    margin-left: 4.5vmax;
+    margin-top: 5vmax;
+  }
+  
+  .Hcategory{
+    width:90%;
+    height: 11vmax;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+    .homeCategoryImg{
+        width: 50%;
+        margin: auto;
+    }
+
+    .hCategoryName{
+        color: #25255C;
+        font-size: 1.2vmax;
+        font-weight: 600;
+        margin-top: 10%;
+    }
+  
+  .uselesscategory{
+    display: none !important;
+  }
+
+  .Hcategory-content .slick-prev {
+    width: 50px!important;
+    height: 50px!important;
+    left: -50px;
+    top: 45% !important;
+    }
+
+
+    .Hcategory-content .slick-next {
+      width: 50px!important;
+      height: 50px!important;
+      background: none;
+      right: 65px;
+      top: 38.5% !important;
+      transform: scaleX(-1) !important;  
+      border-radius: 50px;
+    }
+
+    .Hcategory-content .slick-prev::before{
+      content: url('../../../assets/category_slider_arrow.png') !important;
+      opacity: 1 !important;
+    }
+
+    .Hcategory-content .slick-next::before{
+      content: url('../../../assets/category_slider_arrow.png') !important;
+      opacity: 1 !important;
+    }        
+
+
+  .Hcategory-content .slick-slider{
+    margin-left: 12% !important;
+    padding-left: 0 !important;
+    padding-right: 10% !important;
+  }
+  
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+  .hCategorySec{
+    padding-bottom: 2%;
+    border-bottom: 3px solid rgba(37, 37, 92, 0.15);
+}
+
+.hCategoryHeading{
+    color: #25255c;
+    font-size: 2.5vmax;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+.Hcategory-content{
+    height: 100%;
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 4%;
+  }
+  
+  .Hcategory{
+    width:90%;
+    height: 10vmax;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+    .homeCategoryImg{
+        width: 70%;
+        margin: auto;
+    }
+
+    .hCategoryName{
+        width: 95%;
+        color: #25255C;
+        font-size: 1.1vmax;
+        font-weight: 600;
+        margin-top: 10%;
+        margin: 10% auto;
+    }
+  
+  .uselesscategory{
+    display: none !important;
+  }
+     
+  .Hcategory-content .slick-next {
+    display: none;
+  }
+
+    .Hcategory-content .slick-slider{
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+}

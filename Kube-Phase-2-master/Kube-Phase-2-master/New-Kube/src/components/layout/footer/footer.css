@@ -1,0 +1,423 @@
+.newsletterBar{
+    width:60%;
+    height: 10vmax;
+    background-color: #281c5c;
+    box-shadow: 7px 7px #8888886e;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 20%;
+    margin-bottom: -2.8vmax;
+    z-index: 1;
+    margin-top: 5%;
+ 
+}
+
+    .newsletterText{
+        display: inline-block;
+        font-size: 1.8vmax;
+        font-weight: 600;
+        line-height: 2.2vmax;
+        color: white;
+        margin:0;
+        width: 50%;
+        text-align: center;
+        padding: 4% 0;
+    }
+
+    .newsletterSearch{
+        display: inline-block;
+        color: white;
+        margin:0;
+        width: 50%;
+        margin-top: 4vmax;
+        text-align: center;
+        vertical-align: top;
+        
+        
+    }
+
+        .fEmail{
+            background-color: white;
+            border-style: none;
+            font-size: 1.2vmax;
+            padding: 2%;
+            width: 75%;
+            border-radius: 10px;
+            vertical-align: top;
+        }
+        .fEmailbtn{
+            background: none;
+            width: 7%;
+            margin-left: 8%;
+            padding: 0;
+            border: none;
+        }
+
+            .fEmailbtnicon{
+                width: 100%;
+                margin-top: 0.5%;
+            }
+
+
+
+
+/* footer */
+.footlayout{
+    background-color: #EA5D60;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: auto;
+}
+
+
+
+    .footdetails{
+        float: left;
+        width: 20%;
+        margin-left: 4%;
+        margin-right: 5%;
+        vertical-align: top;
+        margin-top: 6.5%;
+    }
+
+        .footlogo{
+            width: 60%;
+            height: 4.5vmax;
+            margin-left: 19%;
+        }
+
+        .footdetails h2 {
+            color: white;
+            font-size: 1.8vmax;
+            font-weight: 600;
+            text-align: center;
+            margin: 0;
+            margin-top: 3%;
+        }
+
+        .footapp{
+            width: 75%;
+            height: 6vmax;
+            margin-left: 13%;
+            margin-top: 21%;    
+        }
+
+    .footlinks{
+        display: inline-block;
+        width: 45%;
+        margin-top: 6%;
+        vertical-align: top;
+    }
+    .fsocialicons{
+        margin-left:12%;
+    }
+
+    .fsicon{
+        width: 12%;
+        /* height: 4.5vmax; */
+        margin-right: 10%;
+    }
+
+    .fQuickLinks{
+        display: inline-flex;
+        width: 100%;
+    }
+        .fQuick{
+            flex: 1;
+            margin-right: 10%;
+            margin-top: 1.8%;
+           
+        }
+            .fQuick h4{
+                font-size: 1.3vmax;
+                font-weight: 700;
+                color:#25255C;
+                margin: 0;
+            }
+
+            .fQuick > ul {
+                
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+            .fQuick > ul > a > li{
+                padding-top: 1.1vmax;
+                font-family: Segoe UI;  
+                font-size: 1.1vmax;
+                font-weight: 400;
+                color:#25255C;
+                width: 102%;
+            }
+
+            .fQuick a {
+                text-decoration: none;
+            }
+
+        .fContactQuick{
+            display: inline-block;
+            width: 15%;
+            margin-top: 11.4%;
+               
+        }
+                .fContactQuick h4{
+                    font-size: 1.3vmax;
+                    font-weight: 700;
+                    color:#25255C;
+                    margin: 0;
+                }
+    
+                .fContactQuick > ul {
+                    
+                    list-style-type: none;
+                    padding-left: 0;
+                }
+    
+                .fContactQuick > ul > li{
+                    display: inline-block;
+                    padding-top: 1.1vmax;
+                    font-family: Segoe UI;  
+                    font-size: 1.1vmax;
+                    font-weight: 400;
+                    color:#25255C;
+                    width: 100%;
+                    vertical-align: top;
+                }   
+
+                .fContacticons{
+                    margin-top: 1%;
+                    margin-right: 3%;
+                    width: 8%;
+                }
+        
+    .fBottomLine{
+    
+        float: right;
+        color: white;
+        font-size: 1.3vmax;
+        font-weight: 400;
+        margin-top: 0.5%;
+        margin-bottom: 1%;
+        margin-right: 10%;
+    }
+
+        .fBottomLine p{
+            margin: 0;
+        }
+
+
+    @media only screen and (max-width: 600px) and (min-width: 320px){
+
+        .newsletterBar{
+            width:90%;
+            height: 7vmax;
+            background-color: #281c5c;
+            box-shadow: 7px 7px #8888886e;
+            border-radius: 5px;
+            position: relative;
+            margin-left: 5%;
+            margin-bottom: -1vmax;
+            z-index: 1;
+            
+         
+        }
+        
+            .newsletterText{
+                display: inline-block;
+                font-size: 1.2vmax;
+                font-weight: 600;
+                line-height: 2.2vmax;
+                color: white;
+                margin:0;
+                width: 50%;
+                text-align: center;
+                padding: 3% 0;
+            }
+        
+            .newsletterSearch{
+                display: inline-block;
+                color: white;
+                margin:0;
+                width: 50%;
+                margin-top: 2.5vmax;
+                text-align: center;
+                vertical-align: top;
+                
+                
+            }
+        
+                .fEmail{
+                    background-color: white;
+                    border-style: none;
+                    font-size: 1.2vmax;
+                    padding: 2%;
+                    width: 70%;
+                    border-radius: 5px;
+                    vertical-align: top;
+                }
+                .fEmailbtn{
+                    background: none;
+                    width: 8%;
+                    margin-left: 4%;
+                    padding: 0;
+                    border: none;
+                }
+        
+                    .fEmailbtnicon{
+                        width: 100%;
+                        margin-top: 0.5%;
+                    }
+        
+        
+        
+        
+        /* footer */
+        .footlayout{
+            background-color: #EA5D60;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+        
+        
+        
+            .footdetails{
+                
+                
+                display: inline-block;
+                width: 50%;
+                margin-left: 0;
+                margin-right: 5%;
+                vertical-align: top;
+                margin-top: 0;
+            }
+        
+                .footlogo{
+                    width: 78%;
+                    height: 100%;
+                    margin-left: 11%;
+                }
+        
+                .footdetails h2 {
+                    color: white;
+                    font-size: 1.9vmax;
+                    font-weight: 600;
+                    text-align: center;
+                    margin: 0;
+                    margin-top: -2%;
+                }
+        
+                .footapp{
+                    width: 75%;
+                    height: 100%;
+                    margin-left: 13%;
+                    margin-top: 4%;    
+                }
+        
+            .footlinks{
+                
+                display: inline-block;
+                width: 100%;
+                position: relative;
+                margin-top: 10%;
+                top: 0;
+                vertical-align: top;
+            }
+            .fsocialicons{
+                margin-left: 17%;
+            }
+        
+            .fsicon{
+                width: 12%;
+                /* height: 4.5vmax; */
+                margin-right: 10%;
+            }
+        
+            .fQuickLinks{
+                display: inline-flex;
+                width: 100%;
+            }
+                .fQuick{
+                    flex: 1;
+                    margin-right: 6%;
+                    margin-top: 1.8%;
+                   margin-left: 6%;
+                }
+                    .fQuick h4{
+                        font-size: 1.3vmax;
+                        font-weight: 700;
+                        color:#25255C;
+                        margin: 0;
+                    }
+        
+                    .fQuick > ul {
+                        
+                        list-style-type: none;
+                        padding-left: 0;
+                        margin-top: 0;
+                    }
+        
+                    .fQuick > ul > li{
+                        padding-top: 1.1vmax;
+                        font-family: Segoe UI;  
+                        font-size: 1.1vmax;
+                        font-weight: 400;
+                        color:#ffffff;
+                        width: 102%;
+                    }
+        
+                .fContactQuick{
+                    display: inline-block;
+                    width: 40%;
+                    margin-top: 0;
+                       
+                }
+                        .fContactQuick h4{
+                            font-size: 1.5vmax;
+                            font-weight: 700;
+                            color:#25255C;
+                            margin: 0;
+                        }
+            
+                        .fContactQuick > ul {
+                            
+                            list-style-type: none;
+                            padding-left: 0;
+                            margin-top: 5%;
+                        }
+            
+                        .fContactQuick > ul > li{
+                            display: inline-block;
+                            padding-top: 1.1vmax;
+                            font-family: Segoe UI;  
+                            font-size: 1.2vmax;
+                            font-weight: 400;
+                            color:#ffffff;
+                            width: 100%;
+                            vertical-align: top;
+                        }   
+        
+                        .fContacticons{
+                            margin-top: 1%;
+                            margin-right: 5%;
+                            width: 8%;
+                        }
+                
+            .fBottomLine{
+            
+                float: left;
+                color: white;
+                font-size: 1.1vmax;
+                font-weight: 400;
+                margin-top: 1%;
+                margin-bottom: 1%;
+                margin-right: 0;
+                padding-left: 35%;
+                border-top: 1px solid #ffffff;
+            }
+        
+                .fBottomLine p{
+                    margin: 0;
+                }
+    }

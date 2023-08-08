@@ -1,0 +1,21 @@
+.Abanner{
+    width: 86vmax;
+    height: 22vmax;
+}
+
+.Aposition{
+    margin: 1vmax;
+    margin-left: 5vmax;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .Abanner{
+        width: 95%;
+        height: 17vmax;
+    }
+    
+    .Aposition{
+        margin: 1vmax;
+        margin-left: 1.5vmax;
+    }
+}

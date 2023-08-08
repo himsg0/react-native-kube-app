@@ -1,0 +1,328 @@
+.hLatestBlogSec{
+    padding-bottom: 3.75%;
+    
+}
+
+.hLatestBlogHeading{
+    color: #25255c;
+    font-size: 2.8vmax;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 5.5%;
+    margin-bottom: 3.5%;
+}
+
+.hLatestBlogCardMainSec a{
+    text-decoration: none;
+}
+
+    .hLatestBlogCardSubSec{
+        
+    }
+
+        .hLatestBlogCard{
+           width: 88%;
+           height: 95%;
+           margin-top: 2%;
+           margin-left: 1%;
+           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) , -2px -2px 5px rgba(0, 0, 0, 0.5);
+           
+           border-radius: 15px;
+        }
+
+            .hLatestBlogImg{
+                width: 100%;
+                height: 13.9vmax;
+                border-radius: 15px;
+            }
+
+            .hLatestBlogTimeStamp{
+                display: inline-flex;
+                width: inherit;
+                padding-left: 1.5%;
+                margin-top: 1%;
+            }
+
+                .hLatestBlogCalenderIcon{
+                
+                    width: 1.8vmax;
+                    height: 1.8vmax;
+                    vertical-align: top;
+                }
+
+                .hLatestBlogDate{
+            
+                    color: #25255C;
+                    font-size: 1vmax;
+                    font-weight: 350;
+                    margin: 0;
+                    margin-top: 1%;
+                    margin-left: 3%;
+                }
+
+            /* .hLatestBlogLikeSec{
+                display: inline-block;
+                width: 50%;
+                padding-left: 20%;
+                margin-top: 1%;
+            }
+
+                .hLatestBlogNoOfLikes{
+                    color: #25255c;
+                    display: inline-block;
+                    font-size: 1vmax;
+                }
+
+                .hLatestBlogHeart{
+                    display: inline-block;
+                    width: 17%;
+                    margin-left: 2%;
+                } */
+
+            .hLatestBlogTitle{
+                color: #25255C;
+                font-size: 1.4vmax;
+                font-weight: 600;
+                margin: 0;
+                margin-top: 2%;
+                margin-left: 1.5%;
+            }
+
+            .hLatestBlogAuthor{
+                color: #25255C;
+                font-size: 1vmax;
+                font-weight: 600;
+                text-decoration: underline;
+                margin: 0;
+                margin-top: 2%;
+                margin-left: 1.5%;
+            }
+
+            .hLatestBlogText{
+                color: #25255C;
+                font-size: 1.05vmax;
+                line-height: 1.2vmax;
+                margin-top: 2%;
+                margin-left: 1.5%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 6;
+                -webkit-box-orient: vertical;
+            }
+
+                .hLatestBlogText p{
+                    text-align: left !important;
+                    line-height: 1.8vmax !important;
+                    display: inline;
+                }
+
+                    .hLatestBlogText span{
+                        font-size: 1.2vmax !important;
+                        font-family: 'Segoe UI' !important;
+                        line-height: 1.8vmax !important;
+                    }
+
+            .hLatestBlogReadMore{
+                color: #25255C;
+                font-size: 1.1vmax;
+                line-height: 2.3vmax;
+                margin-top: 2.5%;
+                margin-bottom: 2.5%;
+                margin-left: 1.5%;
+                text-decoration: underline;
+            }
+
+        .hLatestBlogViewAllButtonSec{
+            margin-top: 3.5%;
+            text-align:  center;
+        }
+
+            .hLatestBlogViewAllButton{
+                width: 12%;
+                height: 2.6vmax;
+                font-size: 1.6vmax;
+                font-weight: 700 ;
+                color: #ffffff;
+                background: #25255C;
+                box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                border: none;
+            }
+
+.hLatestBlogCardMainSec .slick-slider {
+    margin-left: 5.5% !important;
+}
+
+.NRhLatestBlog{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .hLatestBlogSec{
+        padding-bottom: 3.75%;
+        
+    }
+    
+    .hLatestBlogHeading{
+        color: #25255c;
+        font-size: 2.5vmax;
+        font-weight: 700;
+        margin: 0;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-bottom: 3.5%;
+    }
+
+    .hLatestBlogCardMainSec{
+        margin-left: 3%;
+    }
+    
+    .hLatestBlogCardMainSec a{
+        text-decoration: none;
+    }
+    
+        .hLatestBlogCardSubSec{
+            
+        }
+    
+            .hLatestBlogCard{
+               width: 95%;
+               height: 97%;
+               margin-top: 2%;
+               margin-left: 1%;
+               box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) , -2px -2px 5px rgba(0, 0, 0, 0.5);
+               
+               border-radius: 15px;
+            }
+    
+                .hLatestBlogImg{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                }
+    
+                .hLatestBlogTimeStamp{
+                    display: inline-block;
+                    width: 50%;
+                    padding-left: 1.5%;
+                    margin-top: 1%;
+                }
+    
+                    .hLatestBlogCalenderIcon{
+                        display: inline-block !important;
+                        width: 2.1vmax;
+                        height: 2.1vmax;
+                        margin-top: 4%;
+                        vertical-align: top;
+                    }
+    
+                    .hLatestBlogDate{
+                        display: inline-block;
+                        color: #25255C;
+                        font-size: 1.2vmax;
+                        font-weight: 350;
+                        margin-top: 5%;
+                        margin-left: 3%;
+                        vertical-align: top;
+                    }
+    
+                /* .hLatestBlogLikeSec{
+                    display: inline-block;
+                    width: 50%;
+                    padding-left: 24%;
+                    margin-top: 0;
+                }
+    
+                    .hLatestBlogNoOfLikes{
+                        color: #25255c;
+                        display: inline-block;
+                        font-size: 1.2vmax;
+                        
+                    }
+    
+                    .hLatestBlogHeart{
+                        display: inline-block;
+                        width: 18%;
+                        margin-left: 1.5%;
+                        vertical-align: top;
+                    } */
+    
+                .hLatestBlogTitle{
+                    color: #25255C;
+                    font-size: 2.1vmax;
+                    font-weight: 700;
+                    margin: 0;
+                    margin-top: 1.5%;
+                    margin-left: 1.5%;
+                }
+
+                .hLatestBlogAuthor{
+                    color: #25255C;
+                    font-size: 1.7vmax;
+                    font-weight: 600;
+                    text-decoration: underline;
+                    margin: 0;
+                    margin-top: 2%;
+                    margin-left: 1.5%;
+                }
+    
+                .hLatestBlogText{
+                    color: #25255C;
+                    font-size: 1.4vmax;
+                    line-height: 1.7vmax;
+                    margin: 3% 1.5%;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 6;
+                    -webkit-box-orient: vertical;
+                    
+                }
+    
+                    .hLatestBlogText p{
+                        text-align: left !important;
+                        display: inline;
+                    }
+
+                    .hLatestBlogText p span{
+                        text-align: left !important;
+                        font-size: 1.5vmax !important;
+                        line-height: 1.7vmax;
+                    }
+    
+                .hLatestBlogReadMore{
+                    color: #25255C;
+                    font-size: 1.2vmax;
+                    line-height: 2.3vmax;
+                    margin-top: 1%;
+                    margin-left: 1.5%;
+                    margin-top: 3%;
+                    text-decoration: underline;
+                }
+    
+            .hLatestBlogViewAllButtonSec{
+                margin-top: 2%;
+                text-align:  center;
+            }
+    
+                .hLatestBlogViewAllButton{
+                    width: 15%;
+                    height: 2.7vmax;
+                    font-size: 1.3vmax;
+                    font-weight: 400 ;
+                    color: #ffffff;
+                    background: #25255C;
+                    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+                    border-radius: 5px;
+                }
+    
+    .hLatestBlogCardMainSec .slick-slider {
+        margin-left: 0 !important;
+    }
+    
+    .NRhLatestBlog{
+        display: none;
+    }
+}

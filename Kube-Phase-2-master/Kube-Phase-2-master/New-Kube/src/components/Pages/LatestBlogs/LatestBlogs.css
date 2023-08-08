@@ -1,0 +1,262 @@
+.Lblogsheading{
+    display: inline-block;
+    width: 50%;
+    color: #26235c;
+    font-weight: 700;
+    font-size: 3vmax;
+    margin: 0;
+    margin-top: 4.2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    vertical-align: top;
+}
+
+.Lbsortcategory{
+    display: inline-block;
+    width: 17%;
+    height: 3.5vmax;
+    appearance: none;
+    background-color: transparent;
+    background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+    background-repeat: no-repeat;
+    background-size: 2.5vmax 2.5vmax;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    border: 1px solid #25255C;
+    border-radius: 15px;
+    padding-left: 0.5%;
+    margin-top: 4.2%;
+    margin-left: 2.25%;
+    font-size: 1.6vmax;
+    font-weight: 400;
+    color: #26235c;
+    vertical-align: top;
+}
+
+.LbsortsubCategory{
+    display: inline-block;
+    width: 18%;
+    height: 3.5vmax;
+    appearance: none;
+    background-color: transparent;
+    background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+    background-repeat: no-repeat;
+    background-size: 2.5vmax 2.5vmax;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    border: 1px solid #25255C;
+    border-radius: 15px;
+    padding-left: 0.5%;
+    margin-top: 4.2%;
+    margin-left: 2.25%;
+    font-size: 1.6vmax;
+    font-weight: 400;
+    color: #26235c;
+    vertical-align: top;
+}
+
+.LatestBlogsection{
+    
+    margin-top: 2%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid rgba(37, 37, 92, 0.37);
+}
+
+
+.Lblogsimg{
+    display: inline-block;
+    width: 20.85%;
+    height: 13.9vmax;
+    margin-top: 1%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    vertical-align: top;
+}
+
+.Lbcontent{
+    display: inline-block;
+    width: 65%;
+    margin-left: 3.5%;
+}
+
+    .Lbtimestamp{
+        /* height: 2vmax; */
+        margin-bottom: 0%;
+    }
+
+        .Lbcalendericon{
+            display: inline-block;
+            width: 2.2vmax;
+            height: 2.2vmax;
+        }
+
+        .Lbdate{
+            display: inline-block;
+            color: #25255C;
+            font-size: 1.2vmax;
+            font-weight: 350;
+            margin: 0;
+            margin-left: 3%;
+        }
+
+    .Lbheading{
+        color: #25255C;
+        font-size: 1.8vmax;
+        font-weight: 600;
+        margin-bottom: 0.7%;
+    }    
+
+    .Lbtext{
+        color: #25255C;
+        font-size: 1.8vmax;
+        line-height: 2vmax;
+        
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+    
+        -webkit-box-orient: vertical;
+    }
+
+    .Lbtext p{
+        text-align: left !important;
+        line-height: 1.8vmax !important;
+    }
+
+    .Lbtext span{
+        font-size: 1.4vmax !important;
+        
+    }
+
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .Lblogsheading{
+        display: inline-block;
+        width: 39%;
+        color: #26235c;
+        font-weight: 700;
+        font-size: 3vmax;
+        margin: 0;
+        margin-top: 4.2%;
+        margin-bottom: 2%;
+        margin-left: 3%;
+        vertical-align: top;
+    }
+    
+    .Lbsortcategory{
+        display: inline-block;
+        width: 28.5%;
+        height: 3.5vmax;
+        appearance: none;
+        background-color: transparent;
+        background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+        background-repeat: no-repeat;
+        background-size: 2.5vmax 2.5vmax;
+        background-position-x: 100%;
+        background-position-y: 50%;
+        border: 1px solid #25255C;
+        border-radius: 10px;
+        padding-left: 0.5%;
+        margin-top: 4.2%;
+        margin-left: 2%;
+        font-size: 1.4vmax;
+        font-weight: 400;
+        color: #26235c;
+        vertical-align: top;
+    }
+    
+    .LbsortsubCategory{
+        display: inline-block;
+        width: 25%;
+        height: 3.5vmax;
+        appearance: none;
+        background-color: transparent;
+        background-image: url("https://www.kubeshop.in/wp-content/uploads/2022/05/Sort_Down.webp");
+        background-repeat: no-repeat;
+        background-size: 2.5vmax 2.5vmax;
+        background-position-x: 100%;
+        background-position-y: 50%;
+        border: 1px solid #25255C;
+        border-radius: 10px;
+        padding-left: 0.5%;
+        margin-top: 4.2%;
+        margin-left: 1%;
+        font-size: 1.4vmax;
+        font-weight: 400;
+        color: #26235c;
+        vertical-align: top;
+        -webkit-padding-end: 25px !important;
+    }
+    
+    .LatestBlogsection{
+        
+        margin-top: 2%;
+        padding-bottom: 3%;
+        border-bottom: 1px solid rgba(37, 37, 92, 0.37);
+    }
+    
+    
+    .Lblogsimg{
+        display: inline-block;
+        width: 38%;
+        height: 100%;
+        margin-top: 6%;
+        margin-left: 3%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        vertical-align: top;
+    }
+    
+    .Lbcontent{
+        display: inline-block;
+        width: 55%;
+        margin-left: 3.5%;
+    }
+    
+        .Lbtimestamp{
+            /* height: 2vmax; */
+            margin-bottom: 0;
+        }
+    
+            .Lbcalendericon{
+                display: inline-block;
+                width: 1.5vmax;
+                height: 1.5vmax;
+            }
+    
+            .Lbdate{
+                display: inline-block;
+                color: #25255C;
+                font-size: 1.1vmax;
+                font-weight: 350;
+                margin: 0;
+                margin-left: 3%;
+            }
+    
+        .Lbheading{
+            color: #25255C;
+            font-size: 1.7vmax;
+            line-height: 1.9vmax;
+            font-weight: 600;
+            margin-bottom: 0.7%;
+        }    
+    
+        .Lbtext{
+            color: #25255C;
+            font-size: 1.3vmax;
+            line-height: 1.7vmax;
+            
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+        
+            -webkit-box-orient: vertical;
+        }
+    
+        .Lbtext p{
+            text-align: left !important;
+        }
+}

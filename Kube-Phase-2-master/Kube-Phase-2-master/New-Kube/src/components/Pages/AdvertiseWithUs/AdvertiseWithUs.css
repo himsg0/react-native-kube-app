@@ -1,0 +1,418 @@
+.AdvertiseWithUs h1{
+    color:  #26235C;
+    font-weight: 700;
+    margin-top: 4%;
+    margin-left: 3%;
+    font-size: 2.8vmax;
+}
+
+.AWUMainSec{
+    width: 94%;
+    margin-left: 3%;
+    background-color: rgba(236, 32, 36, 0.37);
+    border-radius: 45px;
+}
+
+.contactTeamSec{
+    text-align: center;
+}
+
+
+.contactTeamDetails{
+    width: 60%;
+    margin: auto;
+}
+
+.contactTeamDetails h3{
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    color:  #26235C;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.8vmax;
+}
+
+.contactTeamDetails span{
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    color:  #26235C;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: 1.8vmax;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contactTeamSecHeading{
+    color:  #26235C;
+    font-weight: 700;
+    padding-top: 4%;
+    margin-left: 3%;
+    font-size: 2.1vmax;
+}
+
+.AWUFormHeading{
+    color:  #26235C;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 4%;
+    padding-top: 4%;
+    padding-left: 3%;
+    font-size: 2.1vmax;
+    border-top: 3px solid #ffffff;
+}
+
+.AWUForm{
+    width: 92%;
+    margin-left: 3%;
+}
+
+.ALabel{
+    
+    color: #26235C;
+    font-weight: 500;
+    font-size: 1.6vmax;
+}
+
+.AInput{
+    
+    height: 3.5vmax;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: none;
+}
+
+
+.AWUSubmitBtn{
+    background-color: #26235C;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    width: 18%;
+    height: 4vmax;
+    font-weight: 600;
+    font-size: 1.8vmax;
+    margin: 10% 0;
+    margin-left: 40%;
+}
+
+.AWUCategory{
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+
+.AWUcity{
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+.AWUDropdownbtn{
+    cursor: pointer;
+    width: 80%;
+    background-color: #EA5D60;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 4%;
+    padding-left: 10%;
+    color: #ffffff;
+    font-size: 1.5vmax;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.AWUDropdownListMainSec{
+    position: absolute;
+    width: 17%;
+    height: 15vmax;
+    margin: auto;
+    background-color: #DFDFE7;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);;
+    z-index: 2;
+}
+
+.AWUDropdownListSec{
+    width: 90%;
+    height: 15vmax;
+    margin: auto;
+    overflow-y: auto;
+    
+}
+
+.AWUDropdownList{
+    padding: 0;
+    margin: 0;
+    
+    
+    border-bottom: 2px solid #e5e5e5;
+    box-sizing: border-box;
+    color: #26235C;
+    font-size: 1.6vmax;
+    font-weight: 500;
+    
+    
+}
+
+.AWUDropdownListItem{
+    cursor: pointer;
+    text-align: center;
+    list-style: none;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #ffffff;
+
+}
+
+
+.AWUDropdownListSec::-webkit-scrollbar
+        {
+            width: 3px;
+        }
+        .AWUDropdownListSec::-webkit-scrollbar-track
+        {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            margin: 10px 0;
+            
+        }
+        .AWUDropdownListSec::-webkit-scrollbar-thumb
+        {
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background: #26235C;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+        }
+        .AWUDropdownListSec::-webkit-scrollbar-thumb:window-inactive
+        {
+            background: #26235C;
+        }
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .AdvertiseWithUs h1{
+        color:  #26235C;
+        font-weight: 700;
+        margin-top: 4%;
+        margin-left: 3%;
+        font-size: 2.6vmax;
+    }
+    
+    .AWUMainSec{
+        width: 94%;
+        margin-left: 3%;
+        background-color: rgba(236, 32, 36, 0.37);
+        border-radius: 20px;
+    }
+    
+    .contactTeamSec{
+        text-align: center;
+    }
+    
+    
+    .contactTeamDetails{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .contactTeamDetails h3{
+        width: 28%;
+        display: inline-block;
+        text-align: left;
+        color:  #26235C;
+        font-weight: 500;
+        margin: 0;
+        margin-left: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 1.8vmax;
+    }
+    
+    .contactTeamDetails span{
+        width: 52%;
+        display: inline-block;
+        text-align: left;
+        color:  #26235C;
+        font-weight: 500;
+        margin: 0;
+        padding-left: 1%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        font-size: 1.8vmax;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contactTeamSecHeading{
+        color:  #26235C;
+        font-weight: 700;
+        padding-top: 4%;
+        margin-left: 3%;
+        font-size: 2.1vmax;
+    }
+    
+    .AWUFormHeading{
+        color:  #26235C;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 4%;
+        padding-top: 4%;
+        padding-left: 3%;
+        font-size: 2.1vmax;
+        border-top: 3px solid #ffffff;
+    }
+    
+    .AWUForm{
+        width: 92%;
+        margin-left: 3%;
+    }
+    
+    .ALabel{
+        
+        color: #26235C;
+        font-weight: 500;
+        font-size: 1.6vmax;
+    }
+    
+    .AInput{
+        
+        height: 3.5vmax;
+        background-color: #ffffff;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        border: none;
+    }
+    
+    
+    .AWUSubmitBtn{
+        background-color: #26235C;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        width: 25%;
+        height: 4vmax;
+        font-weight: 600;
+        font-size: 1.8vmax;
+        margin: 10% 0;
+        margin-left: 40%;
+    }
+    
+    .AWUCategory{
+        display: inline-block;
+        width: 35%;
+        margin: 0 auto;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    
+    
+    .AWUcity{
+        display: inline-block;
+        width: 35%;
+        margin: 0 auto;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    
+    .AWUDropdownbtn{
+        cursor: pointer;
+        width: 80%;
+        background-color: #EA5D60;
+        margin: auto;
+        margin-bottom: 2%;
+        padding: 4%;
+        padding-left: 10%;
+        color: #ffffff;
+        font-size: 1.5vmax;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        
+    }
+    
+    .AWUDropdownListMainSec{
+        position: absolute;
+        width: 35%;
+        height: 15vmax;
+        margin: auto;
+        background-color: #DFDFE7;
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);;
+        z-index: 2;
+    }
+    
+    .AWUDropdownListSec{
+        width: 90%;
+        height: 15vmax;
+        margin: auto;
+        overflow-y: auto;
+        
+    }
+    
+    .AWUDropdownList{
+        padding: 0;
+        margin: 0;
+        
+        
+        border-bottom: 2px solid #e5e5e5;
+        box-sizing: border-box;
+        color: #26235C;
+        font-size: 1.6vmax;
+        font-weight: 500;
+        
+        
+    }
+    
+    .AWUDropdownListItem{
+        cursor: pointer;
+        text-align: center;
+        list-style: none;
+        padding-bottom: 2%;
+        border-bottom: 2px solid #ffffff;
+    
+    }
+    
+    
+    .AWUDropdownListSec::-webkit-scrollbar
+            {
+                width: 3px;
+            }
+            .AWUDropdownListSec::-webkit-scrollbar-track
+            {
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                -webkit-border-radius: 10px;
+                border-radius: 10px;
+                margin: 10px 0;
+                
+            }
+            .AWUDropdownListSec::-webkit-scrollbar-thumb
+            {
+                -webkit-border-radius: 10px;
+                border-radius: 10px;
+                background: #26235C;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+            }
+            .AWUDropdownListSec::-webkit-scrollbar-thumb:window-inactive
+            {
+                background: #26235C;
+            }
+}
+

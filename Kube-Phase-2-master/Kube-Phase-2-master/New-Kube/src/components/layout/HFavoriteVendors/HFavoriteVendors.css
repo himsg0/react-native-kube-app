@@ -1,0 +1,178 @@
+.hFavoriteVendorsSec{
+    padding-bottom: 3.75%;
+    border-bottom: 3px solid rgba(37, 37, 92, 0.15);
+}
+.hFavoriteVendorsHeading{
+    color: #25255c;
+    font-size: 2.8vmax;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 5.5%;
+    margin-bottom: 3.5%;
+}
+
+.hFavoriteVendorsCardSec{
+    width: 95%;
+}
+
+.hFavoriteVendorsImgSec{
+    margin-bottom: 5%;
+}
+
+    .hFavoriteVendorsImg{
+       width: 85%;
+       height: 15vmax;
+       box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+       border-radius: 15px;
+    }
+
+    .hFavoriteVendorsName{
+        color: #25255c;
+        font-size: 1.5vmax;
+        font-weight: 700;
+        line-height: 1.9vmax;
+        margin: 0;
+        margin-top: 3.8%;
+    }
+
+.hFavoriteVendorsViewAllButtonSec{
+    text-align:  center;
+}   
+
+.hFavoriteVendorsViewAllButton{
+        width: 13%;
+        height: 2.7vmax;
+        font-size: 1.9vmax;
+        font-weight: 700 ;
+        color: #ffffff;
+        background: #25255C;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+}
+
+
+.hFavoriteVendorsCardSec .slick-slider {
+    margin-left: 5.5% !important;
+}
+
+
+.hFavoriteVendorsCardSec .slick-prev {
+    width: 50px!important;
+    height: 50px!important;
+    left: -50px;
+    top: 45% !important;
+}
+
+.hFavoriteVendorsCardSec .slick-next {
+    width: 50px!important;
+    height: 50px!important;
+    right: -40px;
+    top: 38% !important;
+    transform: scaleX(-1) !important;  
+    border-radius: 50px;
+}
+
+.hFavoriteVendorsCardSec .slick-prev::before{
+    content: url('../../../assets/category_slider_arrow.png') !important;
+    opacity: 1 !important;
+}
+
+.hFavoriteVendorsCardSec .slick-next:hover{
+    width: 50px!important;
+    height: 50px!important;
+    background: #ffffff;
+    border-radius: 50px;  
+}
+        
+.hFavoriteVendorsCardSec .slick-next:before{
+    content: url('../../../assets/category_slider_arrow.png') !important;
+    opacity: 1 !important;
+}        
+
+
+.NRhBestOffer{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .hFavoriteVendorsSec{
+        padding-bottom: 3.75%;
+        border-bottom: 3px solid rgba(37, 37, 92, 0.15);
+    }
+    .hFavoriteVendorsHeading{
+        color: #25255c;
+        font-size: 2.5vmax;
+        font-weight: 700;
+        margin: 0;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-bottom: 3.5%;
+    }
+    
+    .hFavoriteVendorsCardSec{
+       width: 97%;
+        margin-left: 3%;
+    }
+    
+    .hFavoriteVendorsImgSec{
+        margin-bottom: 10%;
+    }
+    
+        .hFavoriteVendorsImg{
+           width: 90%;
+           height: 12vmax;
+           box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+           border-radius: 5px;
+        }
+    
+        .hFavoriteVendorsName{
+            color: #25255c;
+            font-size: 1.5vmax;
+            font-weight: 700;
+            line-height: 1.9vmax;
+            margin: 0;
+            margin-top: 3.8%;
+        }
+    
+    .hFavoriteVendorsViewAllButtonSec{
+        margin-top: 0;
+        text-align:  center;
+    }   
+    
+    .hFavoriteVendorsViewAllButton{
+        width: 15%;
+        height: 2.7vmax;
+        font-size: 1.3vmax;
+        font-weight: 400 ;
+        color: #ffffff;
+        background: #25255C;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    
+    
+    .hFavoriteVendorsCardSec .slick-slider {
+        margin-left: 0 !important;
+    }
+    
+    
+    .hFavoriteVendorsCardSec .slick-prev::before{
+        display: none;
+        
+    }
+    
+    .hFavoriteVendorsCardSec .slick-next:hover{
+        display: none;
+    }
+            
+    .hFavoriteVendorsCardSec .slick-next:before{
+        display: none;
+        
+    }        
+    
+    
+    .NRhBestOffer{
+        display: none;
+    }
+}

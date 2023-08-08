@@ -1,0 +1,119 @@
+.contact > h1{
+    color:  #26235C;
+    font-weight: 700;
+    margin-top: 4%;
+    font-size: 2.8vmax;
+}
+
+.contactForm{
+    background-color: rgba(236, 32, 36, 0.37);
+    border-radius: 25px;
+}
+
+.contactBtnSec{
+    margin-left: 22%;
+    margin-top: 5%;
+    margin-right: 8%;
+}
+
+.contactBtn{
+    background-color: #26235C;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    width: 25%;
+    height: 4vmax;
+    font-weight: 600;
+    font-size: 2.0vmax;
+    margin-left: 35%;
+    border: none;
+}
+
+.contactExternalBtn{
+    background-color: #26235C;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    /* width: 40%; */
+    height: 4vmax;
+    font-weight: 600;
+    font-size: 1.5vmax;
+    border: none;
+}
+
+.cLabel{
+    color: #25255C;
+    font-weight: 600;
+    font-size: 2vmax;
+    margin-left: 3%;
+}
+
+.cInput{
+    height: 4vmax;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 3%;
+    border-radius: 15px!important;
+}
+
+.cInputMessage{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 3%;
+    border-radius: 15px!important;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .contact > h1{
+        color:  #26235C;
+        font-weight: 700;
+        margin-top: 4%;
+        font-size: 3vmax;
+        margin-left: 3%;
+    }
+    .contactBtnSec{
+        margin-left: 8%;
+        /* width: 100%; */
+        margin-top: 3% ;
+        margin-right: 10%;
+    }
+    
+    .contactBtn{
+        background-color: #26235C;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        width: 25%;
+        height: 4vmax;
+        font-weight: 600;
+        font-size: 2.0vmax;
+        margin-left: 35%;
+    }
+
+    .contactExternalBtn{
+        display: inline-block;
+        background-color: #26235C;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        width: 36%;
+        height: 4vmax;
+        font-weight: 600;
+        font-size: 1.5vmax;
+    }
+
+    .cInput{
+        height: 4vmax;
+        background-color: #ffffff;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        margin-left: 3%;
+        border-radius: 5px!important;
+    }
+    
+    .cInputMessage{
+        background-color: #ffffff;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        margin-left: 3%;
+        border-radius: 5px!important;
+    }
+}

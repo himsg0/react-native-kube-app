@@ -1,0 +1,163 @@
+.VDimage_wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.VDimage_wrap {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    /* display: flex; */
+    overflow: hidden;
+}
+
+.VDImgBox{
+    padding-left: 5.15%;
+    padding-right: 5.5%;
+}
+
+.container.vendorDetails_section {
+    max-width: 1490px;
+    padding-top: 30px;
+}
+
+.VD_ab_gold_silver_tag {
+    position: absolute;
+    right: 40px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 100;
+    width: 15%;
+  }
+
+  .contactRatingBar_wrap {
+    display: flex;
+    color: #25255c;
+  }
+
+  .contactRatingBar_wrap .tag_add {
+    margin-right: 10px;
+    color: #25255C;
+    text-decoration: none;
+  }
+
+  .VP_review_wrap_section{
+    margin-top: -2%;
+  }
+
+  .VP_review_wrap_section .rieview_list {
+    display: flex;
+    align-items: center;
+  }
+
+.icons-wraps {
+    margin-top: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-wraps img {
+    width: 3.5vmax;
+}
+
+.tab-vendor-details {
+    border-top: 2px solid rgba(37, 37, 92, 0.17);
+}
+
+.tab-vendor-details .inner-tab-vendor-details {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-tab-vendor-details .VDLogoButton{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    color: #26235C;
+    font-weight: 600;
+    font-size: 1.8vmax;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.inner-tab-vendor-details .VDLogoButton.active {
+    background-color: red;
+    color: white;
+}
+
+.tab-vendor-details .container {
+    max-width: 1490px;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.list-tab-wrap .image_wrap {
+    margin-top: 30px;
+}
+
+.list-tab-wrap .image_wrap img {
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .container.vendorDetails_section {
+        padding-top: 15px;
+    }
+
+    .VDImgBox{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .details_overview_wrap .inner_details_overview_wrap {
+        position: relative;
+        padding-bottom: 0px;
+      }
+
+
+    
+      .contactRatingBar_wrap .tag_add {
+        font-size: 1.6vmax;
+      }
+
+      .contactRatingBar_wrap p {
+        font-size: 1.6vmax;
+      }
+
+      .icons-wraps img {
+        width: 5vmax;
+    }
+
+    .tab-vendor-details .inner-tab-vendor-details {
+        padding-top: 15px;
+    }
+
+    .inner-tab-vendor-details .VDLogoButton{
+        width: 32%;
+        border-radius: 5px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .list-tab-wrap .image_wrap {
+        margin-top: 10px;
+    }
+
+    .list-tab-wrap .image_wrap img {
+        width: 95%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        margin: 0 2% ;
+        border-radius: 5px;
+    }
+
+
+
+
+}

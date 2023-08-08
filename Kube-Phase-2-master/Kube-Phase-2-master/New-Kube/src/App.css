@@ -1,0 +1,17 @@
+@font-face { font-family: cherilyn; 
+  src: url('./assets/Cherilyn.ttf'); 
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Segoe UI'!important;
+  }
+  
+  @media only screen and (max-width: 600px) and (min-width: 320px){
+
+    body{
+        overflow-x: hidden;
+        font-family: 'Segoe UI'!important;
+      }
+
+  }
